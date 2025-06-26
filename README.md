@@ -230,6 +230,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Icons provided by Lucide React
 - Styled with Tailwind CSS
 
----
-
-**Note**: This is a demonstration interface. For production use, integrate with actual LLM services and implement proper command execution safeguards.
