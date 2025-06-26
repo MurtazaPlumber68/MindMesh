@@ -1,4 +1,4 @@
-
+# MindMesh
 # RLLM CLI Assistant
 
 Real-Time LLM-Enhanced CLI Assistant that converts natural language requests into safe, executable shell commands with intelligent safety analysis and command history management.
