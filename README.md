@@ -212,10 +212,6 @@ We welcome contributions! Please follow these guidelines:
 - No actual shell execution occurs in the web interface
 - User data remains in browser session storage
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Support
 
 - 📖 Documentation: Check this README and inline code comments
