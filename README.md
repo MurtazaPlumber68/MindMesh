@@ -1,4 +1,3 @@
-# MindMesh
 # RLLM CLI Assistant
 
 Real-Time LLM-Enhanced CLI Assistant that converts natural language requests into safe, executable shell commands with intelligent safety analysis, command history management, and comprehensive statistics tracking.
@@ -30,7 +29,7 @@ RLLM CLI Assistant bridges the gap between human language and shell commands, ma
 
 ## Tech Stack
 
-- **Frontend**: React 18 with TypeScript
+- **Frontend**: React 18 with TypeScript (Single Page Application)
 - **Styling**: Tailwind CSS with shadcn/ui components
 - **Icons**: Lucide React
 - **Build Tool**: Vite
@@ -38,6 +37,7 @@ RLLM CLI Assistant bridges the gap between human language and shell commands, ma
 - **Notifications**: Sonner toast library
 - **Data Storage**: Browser localStorage for persistence
 - **UI Components**: Custom components built on Radix UI primitives
+- **Deployment**: Vercel (Static Site)
 
 ## Installation
 
@@ -76,6 +76,19 @@ npm run build
 # Preview production build
 npm run preview
 ```
+
+### Deployment
+
+This project is configured for deployment on Vercel:
+
+1. **Connect to Vercel**
+   - Import your GitHub repository to Vercel
+   - Vercel will automatically detect it as a Vite project
+
+2. **Build Settings** (Auto-configured)
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
 
 ## Usage
 
